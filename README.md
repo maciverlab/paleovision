@@ -120,10 +120,12 @@ Matlab functions require curve fitting and image processing toolboxes
 
 Before running the Matlab code run the startup code [bigeye_startup](https://github.com/maciverlab/bigeye/blob/master/bigeye_startup.m), to link all files and folders. 
 
-The data files from Hydrolight (Sequoia Scientific Inc., Bellevue WA) simulations can be found under [figs/data/vision/hydrolight](https://github.com/maciverlab/bigeye/tree/master/figs/data/vision/hydrolight). Baseline water conditions that are used to generate Figure 4 in the main paper are located in folders base_moon, base_stars, and base_sun. The folder base_sun is also used as the baseline water condition for simulating the effect of water conditions on visual range, as depicted in Supplementary Appendix Figure 6. 
+The data files from HydroLight (Sequoia Scientific Inc., Bellevue WA) simulations can be found under [figs/data/vision/hydrolight](https://github.com/maciverlab/bigeye/tree/master/figs/data/vision/hydrolight). Baseline water conditions that are used to generate Figure 4 in the main paper are located in folders base_moon, base_stars, and base_sun. The folder base_sun is also used as the baseline water condition for simulating the effect of water conditions on visual range, as depicted in Supplementary Appendix Figure 6. 
 
 
 The function *getBugContrast.m* in [figs/figExt07_contrast/image_contrast](https://github.com/maciverlab/bigeye/blob/master/figs/figExt07_contrast/image_contrast/getBugContrast.m) will ask the user to select the object of interest, do not close the figure window until all the images have been exhausted.
 
+## Literature
+All cited literature can be found in the cited_literature folder; for details and instructions please refer to the README in that directory.
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This repository for code and data to reproduce results within ”Massive increase in visual range preceded the origin of terrestrial vertebrates”</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
